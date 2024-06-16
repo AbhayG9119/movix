@@ -4,6 +4,7 @@ import {
     FaInstagram,
     FaTwitter,
     FaLinkedin,
+    FaGithub,
 } from "react-icons/fa";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
@@ -30,18 +31,26 @@ const Footer = () => {
                     esse cillum dolore eu fugiat nulla pariatur.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
-                        <FaFacebookF />
-                    </span>
-                    <span className="icon">
-                        <FaInstagram />
-                    </span>
-                    <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
+                    <a href="https://github.com/AbhayG9119">
+                        <span className="icon">
+                            <FaGithub />
+                        </span>
+                    </a>
+                    <a href="https://www.instagram.com/abhay_gupta_ar/">
+                        <span className="icon">
+                            <FaInstagram />
+                        </span>
+                    </a>
+                    <a href="https://x.com/learn_with_eror">
+                        <span className="icon">
+                            <FaTwitter />
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhay-gupta-9119g/">
+                        <span className="icon">
+                            <FaLinkedin />
+                        </span>
+                    </a>
                 </div>
             </ContentWrapper>
         </footer>
